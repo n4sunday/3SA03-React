@@ -13,7 +13,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to React by 5935512004</h1>
         </header>
         <div className="AppHandler as Props">
-          <WordCard value="Hello" />
+            <h2 className="App-Question">First day of the week?</h2>
+          <WordCard value="Sunday" />
         </div>
       </div>
 

@@ -27,6 +27,7 @@ export default class CharacterCard extends Component {
         if (!this.state.active) {
             this.props.activationHandler(this.props.value)
             this.setState({ active: true })
+            
         }
     }
 
