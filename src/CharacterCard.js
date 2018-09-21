@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 
-/*export default class CharacterCard extends Component {
-    render() {
-        return (
-            <div>{this.props.value}</div>
-        )
-    }
-}*/
-
 export default class CharacterCard extends Component {
     constructor(props) {
         super(props)
@@ -27,7 +19,6 @@ export default class CharacterCard extends Component {
         if (!this.state.active) {
             this.props.activationHandler(this.props.value)
             this.setState({ active: true })
-            
         }
     }
 

@@ -3,7 +3,7 @@ import './App.css';
 import WordCard from './WordCard';
 import logo from './logo.svg';
 
-const word = "Hello";
+const word = "Sunday";
 class App extends Component {
   render() {
     return (
@@ -13,13 +13,15 @@ class App extends Component {
           <h1 className="App-title">Welcome to React by 5935512004</h1>
         </header>
         <div className="AppHandler as Props">
-            <h2 className="App-Question">First day of the week?</h2>
-          <WordCard value="Sunday" />
+          <h2 className="App-Question">First day of the week?</h2>
+            <WordCard value="Sunday" />
+            <br></br>
+            <a href="https://github.com/s5935512004/3SA03">Visit Github of Nattapon</a>
         </div>
       </div>
-
     );
   }
+  
 }
 
 export default App;

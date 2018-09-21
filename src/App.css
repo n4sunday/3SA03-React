@@ -20,6 +20,7 @@
 
 .App-Question {
   font-size: 3em;
+  color: gray;
 }
 
 .App-intro {
@@ -42,6 +43,6 @@
 }
 
 .activeCard {
-  color: red;
-  background: pink;
+  color: white;
+  background: blue;
  }
